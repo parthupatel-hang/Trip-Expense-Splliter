@@ -1,73 +1,123 @@
-# Welcome to your Lovable project
+# 💸 Trip Expense Splitter
 
-## Project info
+A modern web application for **tracking trip expenses and splitting costs fairly between participants**. Built with React, TypeScript, Vite, and Tailwind CSS, the project focuses on making shared travel expenses simple, transparent, and easy to manage.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## ✨ Overview
 
-## How can I edit this code?
+Managing expenses during a group trip can quickly become confusing — especially when different people pay for different things. **Trip Expense Splitter** provides a clean interface for recording shared expenses and keeping track of who paid and how costs should be divided.
 
-There are several ways of editing your application.
+## 🚀 Key Features
 
-**Use Lovable**
+- 💰 Add and manage trip expenses
+- 👥 Split expenses between participants
+- 📊 View expense information in a structured interface
+- 🧾 Keep shared spending organized
+- ⚡ Fast and responsive web interface
+- 📱 Designed with a modern, responsive UI
+- 🎨 Clean component-based interface
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Technology | Purpose |
+|---|---|
+| **React** | Frontend UI development |
+| **TypeScript** | Type-safe application development |
+| **Vite** | Development and build tooling |
+| **Tailwind CSS** | Responsive styling |
+| **shadcn/ui** | Reusable UI components |
+| **React Router** | Application navigation |
+| **React Hook Form** | Form management |
+| **Zod** | Data validation |
+| **Recharts** | Data visualization |
+| **Lucide React** | Interface icons |
 
-**Use your preferred IDE**
+## 📁 Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```text
+Trip-Expense-Splliter/
+├── public/              # Static assets
+├── src/                 # Application source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Application pages
+│   ├── hooks/           # Custom React hooks
+│   └── ...              # Supporting application files
+├── package.json         # Dependencies and scripts
+├── vite.config.*        # Vite configuration
+├── tailwind.config.*    # Tailwind configuration
+└── README.md
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚙️ Getting Started
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Make sure you have **Node.js** and **npm** installed.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+Clone the repository:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/parthupatel-hang/Trip-Expense-Splliter.git
+```
+
+Move into the project directory:
+
+```bash
+cd Trip-Expense-Splliter
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at the local URL shown in your terminal.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Available Scripts
 
-**Use GitHub Codespaces**
+```bash
+npm run dev       # Start development server
+npm run build     # Create production build
+npm run build:dev # Create development build
+npm run lint      # Run ESLint
+npm run preview   # Preview production build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Project Goals
 
-## What technologies are used for this project?
+The project was created to solve a practical everyday problem: **making group-trip expense management easier and more transparent**.
 
-This project is built with:
+Future improvements can include:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- 🔄 Smarter settlement calculations
+- 💳 Multiple payment methods
+- 📈 More detailed spending analytics
+- 📤 Expense export and sharing
+- 🔐 User authentication and secure data storage
+- ☁️ Cloud-based trip synchronization
 
-## How can I deploy this project?
+## 📸 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+> Add application screenshots here to showcase the interface and key workflows.
 
-## Can I connect a custom domain to my Lovable project?
+## 👨‍💻 Author
 
-Yes, you can!
+**Parth Patel**  
+Integrated B.Sc. – M.Sc. IT (Cyber Security & Digital Forensics)  
+Monark University, Gujarat
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is currently intended as a personal/academic project.
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star.
