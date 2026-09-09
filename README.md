@@ -104,10 +104,6 @@ Future improvements can include:
 - 🔐 User authentication and secure data storage
 - ☁️ Cloud-based trip synchronization
 
-## 📸 Screenshots
-
-> Add application screenshots here to showcase the interface and key workflows.
-
 ## 👨‍💻 Author
 
 **Parth Patel**  
