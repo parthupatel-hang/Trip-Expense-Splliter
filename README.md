@@ -107,8 +107,10 @@ Future improvements can include:
 ## 👨‍💻 Author
 
 **Parth Patel**  
-Integrated B.Sc. – M.Sc. IT (Cyber Security & Digital Forensics)  
-Monark University, Gujarat
+Integrated B.Sc. – M.Sc. IT (Cyber Security & Digital Forensics)
+
+**Jiya Sinroja**  
+Integrated B.Sc. – M.Sc. CS (Artificial Intelligence & Machine Learning)
 
 ## 📄 License
 
